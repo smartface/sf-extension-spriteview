@@ -14,7 +14,7 @@ SpriteView can be installed via npm easily from our public npm repository. The i
 - Finally require the extension as: `require("sf-extension-spriteview")`
 
 ## How to use
-SpriteView is nothing but a [UI.ImageView](http://ref.smartface.io/#!/api/UI.ImageView) with additional methods. Because it extends ImageView, you can add it inside layouts.
+SpriteView is nothing but a [UI.ImageView](http://ref.smartface.io/#!/api/UI.ImageView) with additional methods. Since it extends ImageView, you can add it inside layouts.
 
 1) Put the sprite sheet under the folder `images` on the Cloud IDE. 
 2) Set the sheet to the SpriteView object as:
