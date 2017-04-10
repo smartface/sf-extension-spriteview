@@ -11,6 +11,7 @@ SpriteView can be installed via npm easily from our public npm repository. The i
 
 - Open scripts/package.json file inside your workspace.
 - Add SpriteView extension dependency as:`"sf-extension-spriteview": "^1.0.0"`
+- Run command `npm install` under the folder `scripts`
 - Finally require the extension as: `require("sf-extension-spriteview")`
 
 ## How to use
