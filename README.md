@@ -20,10 +20,10 @@ SpriteView is nothing but a [UI.ImageView](http://ref.smartface.io/#!/api/UI.Ima
 2) Set the sheet to the SpriteView object as:
 ```javascript
 spriteObject.setSprite({
-sheet: Image.createFromFile("images://spritesheet.png"),
-frameX: << #frames in axis-X >>, // Number
-frameY: << #frames in axis-Y >>, // Number
-frameCount: << #frames in the sheet >> // Number
+	sheet: Image.createFromFile("images://spritesheet.png"),
+	frameX: << #frames in axis-X >>, // Number
+	frameY: << #frames in axis-Y >>, // Number
+	frameCount: << #frames in the sheet >> // Number
 });
 ```
 3) Finally you must make the sprite play by using:
