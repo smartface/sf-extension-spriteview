@@ -1,7 +1,7 @@
 const extend = require("js-base/core/extend");
 
-const Timer     = require("nf-core/timer");
-const ImageView = require("nf-core/ui/imageview");
+const Timer     = require("sf-core/timer");
+const ImageView = require("sf-core/ui/imageview");
 
 const SpriteView = extend(ImageView)(
     function(_super,params)

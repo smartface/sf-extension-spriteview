@@ -1,7 +1,7 @@
 const extend    = require("js-base/core/extend");
-const Page      = require('nf-core/ui/page');
-const Image     = require('nf-core/ui/image');
-const ImageView = require('nf-core/ui/imageview');
+const Page      = require('sf-core/ui/page');
+const Image     = require('sf-core/ui/image');
+const ImageView = require('sf-core/ui/imageview');
 
 const SpriteView = require("sf-extension-spriteview");
 
