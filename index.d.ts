@@ -12,15 +12,15 @@ declare interface ISpriteViewOptions {
     /**
      * Width of the frame
      */
-    width: number;
+    width?: number;
     /**
      * Height of the frame
      */
-    height: number;
+    height?: number;
     /**
      * Fill type of the frame
      */
-    imageFillType: ImageView.FillType;
+    imageFillType?: ImageView.FillType;
 }
 
 export type SetSpriteOptions = {
