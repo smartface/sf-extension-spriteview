@@ -57,6 +57,22 @@ export type SetSpriteOptions = {
  * });
  */
 export default class {
+
+    /**
+     * Width of the frame
+     */
+    width: number;
+
+    /**
+     * Height of the frame
+     */
+    height: number;
+
+    /**
+     * Fill type of the frame
+     */
+    imageFillType: ImageView.FillType;
+
     /**
      * @class
      * @author Berk Baski <berk.baski@smartface.io>
@@ -71,7 +87,7 @@ export default class {
      *     imageFillType: ImageView.FillType.ASPECTFIT
      * });
      */
-    constructor(options: ISpriteViewOptions);
+    constructor(options?: ISpriteViewOptions);
 
     /**
      * Prepares the frame with the given value.
