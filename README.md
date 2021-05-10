@@ -23,7 +23,7 @@ import SpriteView from "sf-extension-spriteview";
 const spriteView = new SpriteView();
 
 spriteView.setSprite({
-    sheet: Image.createFromFile("images://braid.png"), // Image for the frame
+	sheet: Image.createFromFile("images://braid.png"), // Image for the frame
 	frameX: 7, // X Position of the window
 	frameY: 4, // X Position of the window
 	frameCount: 27 // Frame count of the image
