@@ -18,16 +18,28 @@ SpriteView is nothing but an [ImageView](http://ref.smartface.io/#!/api/UI.Image
 1) Put the sprite sheet under the folder `images` on the Cloud IDE. 
 2) Set the sheet to the SpriteView object as:
 ```javascript
-spriteObject.setSprite({
-	sheet: Image.createFromFile("images://spritesheet.png"),
-	frameX: << #frames in axis-X >>, // Number
-	frameY: << #frames in axis-Y >>, // Number
-	frameCount: << #frames in the sheet >> // Number
+import SpriteView from "sf-extension-spriteview";
+
+const spriteView = new SpriteView();
+
+spriteView.setSprite({
+    sheet: Image.createFromFile("images://braid.png"), // Image for the frame
+	frameX: 7, // X Position of the window
+	frameY: 4, // X Position of the window
+	frameCount: 27 // Frame count of the image
 });
 ```
-3) Finally you must make the sprite play by using:
+3) Set the optional fields to the SpriteView as:
+````javascript
+import ImageView from "sf-core/ui/imageview";
+
+spriteView.width = 100; // Width of the frame
+spriteView.height = 125; // Height of the frame
+spriteView.imageFillType = ImageView.FillType.ASPECTFIT; // Fill type of the frame
+````
+4) Finally you must make the sprite play by using:
 ```javascript
-spriteObject.play(<< loop duration in ms >>); // Number
+spriteView.play(1000); // Transition speed of frames
 ```
 
 ## Sample
