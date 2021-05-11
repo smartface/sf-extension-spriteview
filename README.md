@@ -24,8 +24,8 @@ const spriteView = new SpriteView();
 
 spriteView.setSprite({
 	sheet: Image.createFromFile("images://braid.png"), // Image for the frame
-	frameX: 7, // X Position of the window
-	frameY: 4, // X Position of the window
+	frameX: 7, // Distinct image count on X axis
+	frameY: 4, // Distinct image count on Y axis
 	frameCount: 27 // Frame count of the image
 });
 ```

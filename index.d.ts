@@ -29,11 +29,13 @@ export type SetSpriteOptions = {
      */
     sheet: Image,
     /**
-     * X Position of the window
+     * Frame X count
+     * Distinct image count on X axis
      */
     frameX: number,
     /**
-     * Y Position of the window
+     * Frame Y count
+     * Distinct image count on Y axis
      */
     frameY: number,
     /**
