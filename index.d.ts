@@ -39,9 +39,9 @@ export type SetSpriteOptions = {
      */
     frameY: number,
     /**
-     * Frame count of the image
+     * Frame count of the image. If no value is given, it takes the multiply frameX by frameY value.
      */
-    frameCount: number
+    frameCount?: number
 }
 
 /**
