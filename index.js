@@ -1,5 +1,5 @@
-const Timer = require("sf-core/timer");
-const ImageView = require("sf-core/ui/imageview");
+const Timer = require("@smartface/native/timer");
+const ImageView = require("@smartface/native/ui/imageview");
 
 function SpriteView() {
   ImageView.apply(this, arguments);

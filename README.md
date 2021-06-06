@@ -32,7 +32,7 @@ spriteView.setSprite({
 ```
 3) Set the optional fields to the SpriteView as:
 ````javascript
-import ImageView from "sf-core/ui/imageview";
+import ImageView from "@smartface/native/ui/imageview";
 
 spriteView.width = 100; // Width of the frame
 spriteView.height = 125; // Height of the frame

@@ -6,8 +6,8 @@
  * @copyright Smartface 2021
  */
 
- import ImageView from "sf-core/ui/imageview";
- import Image from "sf-core/ui/image";
+ import ImageView from "@smartface/native/ui/imageview";
+ import Image from "@smartface/native/ui/image";
  
  declare type SetSpriteOptions = {
      /**
@@ -36,7 +36,7 @@
   * @copyright Smartface 2021
   * @example
   * import SpriteView from "sf-extension-spriteview";
-  * import ImageView from "sf-core/ui/imageview";
+  * import ImageView from "@smartface/native/ui/imageview";
   * 
   * const spriteView = new SpriteView({
   *     width: 150,
@@ -52,7 +52,7 @@
       * @copyright Smartface 2021
       * @example
       * import SpriteView from "sf-extension-spriteview";
-      * import ImageView from "sf-core/ui/imageview";
+      * import ImageView from "@smartface/native/ui/imageview";
       * 
       * const spriteView = new SpriteView({
       *     width: 150,
