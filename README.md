@@ -7,10 +7,11 @@ An extension to make sprite animations with Smartface Native Framework.
 ![](https://raw.githubusercontent.com/smartface/sf-extension-spriteview/master/braid.gif)
 
 ## Installation
-SpriteView can be installed via npm easily from our public npm repository. The installation is pretty easy via Smartface Cloud IDE.
+SpriteView can be installed via npm easily from our public npm repository. Execute this command on the script folder:
 
-- Run command `(cd ~/workspace/scripts && npm i -S sf-extension-spriteview)`
-- Require the extension as: `require("sf-extension-spriteview")`
+```
+npm i @smartface/extension-spriteview
+```
 
 ## How to use
 SpriteView is nothing but an [ImageView](http://ref.smartface.io/#!/api/UI.ImageView) with additional methods. Since it extends ImageView, you can add it inside layouts.
@@ -31,7 +32,7 @@ spriteView.setSprite({
 ```
 3) Set the optional fields to the SpriteView as:
 ````javascript
-import ImageView from "sf-core/ui/imageview";
+import ImageView from "@smartface/native/ui/imageview";
 
 spriteView.width = 100; // Width of the frame
 spriteView.height = 125; // Height of the frame
