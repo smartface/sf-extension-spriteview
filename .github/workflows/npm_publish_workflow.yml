@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - feature/typescript
 jobs:
   publish:
     runs-on: ubuntu-latest
