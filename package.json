@@ -1,10 +1,11 @@
 {
   "name": "@smartface/extension-spriteview",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "SpriteView component for mimicking animation with imageview",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -w",
+    "build": "tsc"
   },
   "author": {
     "email": "info@smartface.io",
@@ -14,5 +15,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/smartface/sf-extension-spriteview"
+  "repository": "https://github.com/smartface/sf-extension-spriteview",
+  "devDependencies": {
+    "@smartface/native": "^4.3.4 || ^4.3.5-beta || ^4.3.5.alpha",
+    "@types/node": "^16.6.1",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "@smartface/native": "^4.3.4 || ^4.3.5-beta || ^4.3.5.alpha"
+  }
 }
