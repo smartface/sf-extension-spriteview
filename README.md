@@ -1,4 +1,5 @@
 # SpriteView Extension from Smartface
+[![NPM](https://img.shields.io/npm/v/@smartface/extension-spriteview?style=flat-square)](https://www.npmjs.com/package/@smartface/extension-spriteview)
 [![Twitter: @Smartface_io](https://img.shields.io/badge/contact-@Smartface_io-blue.svg?style=flat)](https://twitter.com/smartface_io)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/smartface/sf-extension-spriteview/master/LICENSE)
 
@@ -51,9 +52,8 @@ The folder `sample` holds the example codes and the sprite sheet. You can put th
 Please [submit an issue](https://github.com/smartface/sf-extension-spriteview/issues) on GitHub and provide information about your problem.
 
 ## Support & Documentation & Useful Links
-- [Guides](https://developer.smartface.io/)
+- [Guides](https://docs.smartface.io/)
 - [API Docs](http://ref.smartface.io/)
-- [Smartface Cloud Dashboard](https://cloud.smartface.io)
 
 ## Code of Conduct
 We are committed to making participation in this project a harassment-free experience for everyone, regardless of the level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality.

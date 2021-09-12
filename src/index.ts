@@ -29,7 +29,7 @@ interface SetSpriteOptions {
   * @author Berk Baski <berk.baski@smartface.io>
   * @copyright Smartface 2021
   * @example
-  * import SpriteView from "sf-extension-spriteview";
+  * import SpriteView from "@smartface/extension-spriteview";
   * import ImageView from "@smartface/native/ui/imageview";
   * 
   * const spriteView = new SpriteView({
@@ -51,7 +51,7 @@ export default class SpriteView extends ImageView {
    * @author Berk Baski <berk.baski@smartface.io>
    * @copyright Smartface 2021
    * @example
-   * import SpriteView from "sf-extension-spriteview";
+   * import SpriteView from "@smarta-spriteview";
    * import ImageView from "@smartface/native/ui/imageview";
    * 
    * const spriteView = new SpriteView({
@@ -60,8 +60,8 @@ export default class SpriteView extends ImageView {
    *     imageFillType: ImageView.FillType.ASPECTFIT
    * });
    */    
-    constructor(args: Partial<typeof ImageView>) {
-        super(args);
+    constructor(args?: Partial<ImageView>) {
+        super(args || {});
     }
 
     /**
