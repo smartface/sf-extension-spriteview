@@ -1,6 +1,6 @@
 {
   "name": "@smartface/extension-spriteview",
-  "version": "3.0.0-rc.0",
+  "version": "3.0.0",
   "description": "SpriteView component for mimicking animation with imageview",
   "main": "dist/index.js",
   "scripts": {
